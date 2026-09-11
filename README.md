@@ -1,89 +1,33 @@
-# AI Tools Portfolio
+# AI Tools & Full-Stack Portfolio
 
-**Full-stack AI applications** built with **Python + JavaScript**, designed to demonstrate production-ready skills for mid-level Full-Stack Developer roles.
-
-These projects showcase:
-- End-to-end full-stack architecture (auth, databases, APIs, real-time features)
-- Modern AI/LLM integration (RAG, agents, tool use, evaluation)
-- Clean code, TypeScript/Python best practices, and deployable structure
-- Focus on real user problems rather than toy demos
+Curated list of **interview-ready** full-stack projects (Python + TypeScript + practical AI).
 
 ---
 
-## Projects
+## Active projects (pin these)
 
-| # | Project | Description | Stack | Status |
-|---|---------|-------------|-------|--------|
-| 1 | [**RAG Knowledge Base**](https://github.com/Invenitur42/rag-knowledge-base) | Upload documents → semantic search + chat with your own knowledge. Hybrid search + citations. | FastAPI · LangChain · Next.js · Postgres/pgvector | Scaffolded |
-| 2 | [**AI Writing Copilot**](https://github.com/Invenitur42/ai-writing-copilot) | Real-time writing assistant: tone rewrite, grammar, style suggestions, email drafts. | FastAPI · OpenAI · Next.js · Redis | Scaffolded |
-| 3 | [**Smart Document QA**](https://github.com/Invenitur42/smart-document-qa) | Production-style document Q&A with re-ranking, evaluation metrics, admin dashboard. | FastAPI · LangChain · Next.js · Vector DB | Scaffolded |
-| 4 | [**AI Job Assistant**](https://github.com/Invenitur42/ai-job-assistant) | Track applications + AI resume/cover letter tailoring + interview prep. | FastAPI · Next.js · Postgres · OpenAI | Scaffolded |
-| 5 | [**AI Agent Workspace**](https://github.com/Invenitur42/ai-agent-workspace) | Multi-tool AI agent with memory, tool calling, background tasks, and dashboard. | FastAPI · LangGraph/Agents · Next.js | Scaffolded |
-
----
-
-## Why these projects?
-
-For a 2-year experience full-stack role, interviewers look for:
-- Ability to design and ship complete features (not just frontend or backend)
-- Understanding of auth, data modeling, API design, and state management
-- Practical AI integration (not just calling an API once)
-- Clean documentation and reasoning about trade-offs
-
-Each repo is structured so you can expand it into a strong portfolio piece with screenshots, live demos, and architecture notes.
+| Project | Description | Frontend |
+|---------|-------------|----------|
+| [**Nhurs-RAG-ai**](https://github.com/Invenitur42/Nhurs-RAG-ai) | Chat with your documents — real RAG, pgvector, citations | ✅ |
+| [**project-manager-Pilot**](https://github.com/Invenitur42/project-manager-Pilot) | Kanban projects, boards, tasks, memberships | ✅ |
+| [**Finance_tool_pilot**](https://github.com/Invenitur42/Finance_tool_pilot) | Accounts, transactions, budgets, summaries | ✅ |
+| [**HIQ_Aplication_assistant**](https://github.com/Invenitur42/HIQ_Aplication_assistant) | Job tracker + AI resume/cover letter | API ready |
+| [**Writing_n_Mail_ai**](https://github.com/Invenitur42/Writing_n_Mail_ai) | Rewrite, tone, email drafts | API ready |
 
 ---
 
-## Recommended Tech Stack (consistent across projects)
+## How to review (for recruiters)
 
-**Backend**
-- Python 3.11+
-- FastAPI
-- SQLAlchemy + Alembic (or similar)
-- PostgreSQL (+ pgvector for embeddings)
-- Redis (caching / queues)
-- LangChain / OpenAI SDK / LlamaIndex
-
-**Frontend**
-- Next.js 14/15 (App Router) + TypeScript
-- Tailwind CSS + shadcn/ui
-- React Query / TanStack Query
-- Auth (NextAuth.js or custom JWT)
-
-**Infra / Quality**
-- Docker + docker-compose
-- GitHub Actions (basic CI)
-- Environment-based config
-- Structured logging & error handling
+1. Open a pinned repo → read **About this project** in the README  
+2. Click **Open in Codespaces** or follow the **Run locally** section  
+3. Ask about the **Interview talking points** listed in each README  
 
 ---
 
-## Getting Started with the Portfolio
+## Stack
 
-1. Clone any individual project repo.
-2. Follow the README inside that repo (setup, env vars, running locally).
-3. Add your own OpenAI / Anthropic / local LLM keys.
-4. Deploy frontend (Vercel) + backend (Railway / Render / Fly.io / AWS).
+FastAPI · PostgreSQL · JWT · Next.js · TypeScript · Tailwind · OpenAI · Docker
 
 ---
 
-## Next Steps
-
-I will help you flesh out each project one by one with:
-- Professional folder structure
-- Core API endpoints and database models
-- Frontend pages and components
-- Auth flow
-- AI integration points
-- Strong README with architecture notes and interview talking points
-
-**Recommended build order:**  
-1. RAG Knowledge Base  
-2. AI Job Assistant  
-3. AI Writing Copilot  
-4. Smart Document QA  
-5. AI Agent Workspace
-
----
-
-*Built for interview readiness • Focused on depth over quantity*
+Profile: [github.com/Invenitur42](https://github.com/Invenitur42)
